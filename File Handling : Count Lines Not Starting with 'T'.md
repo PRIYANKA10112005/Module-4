@@ -17,7 +17,7 @@ def returnSum(myDict):
     for i in myDict.values():
         final+=i
     return final
-#driver functions
+#driver functions 
 
 myDict = {'a': 100, 'b': 200, 'c': 300}
 print("Sum :",returnSum(myDict))
